@@ -1,0 +1,4 @@
+gcc -fPIC -c arrays.c
+gcc -fPIC -c add_two.c
+gcc -shared arrays.o add_two.o -o addyarray.so
+
